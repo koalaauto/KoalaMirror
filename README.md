@@ -6,7 +6,6 @@
 
 **Full Android on your car screen — a real second display, not a copy of your phone's.**
 
-[![Release](https://img.shields.io/github/v/release/koalaauto/KoalaMirror?logo=github&label=release&color=7D5700)](https://github.com/koalaauto/KoalaMirror/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/koalaauto/KoalaMirror/total?logo=github&label=downloads&color=7D5700)](https://github.com/koalaauto/KoalaMirror/releases)
 [![Android](https://img.shields.io/badge/Android-12L–16%20·%20SDK%2032+-3DDC84?logo=android&logoColor=white)](#requirements)
 [![Android Auto](https://img.shields.io/badge/Android%20Auto-16.7–17.4-4285F4)](#requirements)
@@ -16,13 +15,21 @@
 
 </div>
 
+![Maps and music side by side on the head unit](docs/images/head-unit-maps-music.webp)
+<sub>Two phone apps, side by side on the car display — Google DHU emulator, not a photo of a car.</sub>
+
 The head unit gets its own Android display: its own launcher, its own input focus, its own power group. Your phone screen can be off, or doing something else entirely, while the car runs any app you like.
 
 > [!IMPORTANT]
 > **Root required** — Magisk, KernelSU, or APatch. There is no no-root path: the display flags this depends on are gated by a platform permission that ADB shell cannot hold. If your phone isn't rooted, [KM Launcher](https://play.google.com/store/apps/details?id=com.koalamirror.launcher) is our free no-root car home screen instead.
 
-![A browser running on the head unit](docs/images/head-unit-browser.webp)
-<sub>Google DHU emulator — not a photo of a car.</sub>
+<div align="center">
+
+[![Download the APK](https://img.shields.io/github/v/release/koalaauto/KoalaMirror?style=for-the-badge&label=Download%20the%20APK&color=7D5700&logo=android&logoColor=white)](https://github.com/koalaauto/KoalaMirror/releases/latest)
+
+<sub>Installs alongside Android Auto · 30-day trial of everything, then the [free tier](#free-and-licensed) keeps working</sub>
+
+</div>
 
 ## How it works
 
@@ -62,6 +69,17 @@ That last part is the one we got wrong for a long time. Wrapping a receiver mean
 - **Shell hooks** — root commands before projection starts and after it stops, one per line
 
 No Android Auto developer options required — you don't need to tap Version ten times or route the install through a spoofing installer. Android Auto can shift what projection takes from one release to the next, so the app tracks versions rather than assuming.
+
+## What it looks like
+
+![A full web browser on the head unit](docs/images/head-unit-browser.webp)
+<sub>A full web browser, running on the car screen.</sub>
+
+<img src="docs/images/head-unit-app-drawer.webp" width="320" alt="The app drawer on a portrait head unit">
+
+<sub>Every app on the phone, in the car's own app drawer — here on a portrait head unit.</sub>
+
+<sub>All shots are the Google DHU emulator, labelled as such rather than passed off as a car. More at [koalamirror.com/gallery](https://koalamirror.com/gallery).</sub>
 
 ## Requirements
 

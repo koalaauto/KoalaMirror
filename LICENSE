@@ -1,8 +1,8 @@
-KoalaMirror is proprietary software.
 Copyright (c) 2026 koala auto. All rights reserved.
 
-This repository hosts official release binaries (APKs), documentation, and
-images. It does not contain application source code.
+This repository hosts the official KoalaMirror release binaries (APKs),
+documentation, and images. The application is distributed as a compiled
+binary; its source code is not part of this repository.
 
 Permitted without further permission:
   - Downloading and using the official APKs under the terms presented in the
