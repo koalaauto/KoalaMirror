@@ -43,7 +43,7 @@ Making a phone UI usable from a steering wheel, a rotary knob, or a car's own bu
 
 **Keys.** Eleven steering-wheel keycodes (`79 85 86 87 88 89 90 91 126 127 130`) are forwarded to the projected side, with long-press overloads — `89` returns to the car launcher, `90` switches to the previous app. **Anything not in that table is handed back to Android Auto untouched.**
 
-That last part is the one we got wrong for a long time. Wrapping a receiver means anything you intercept never reaches AA's original one, and our first implementation intercepted everything — so any key we didn't recognise was silently swallowed for as long as projection was running. It shipped that way from the first release until 1.3.3, on every car. It got fixed because a user photographed the diagnostic toast on his phone (`Steering key [65538] not mapped`) and sent it in.
+That last part is the one we got wrong for a long time. Wrapping a receiver means anything you intercept never reaches AA's original one, and our first implementation intercepted everything — so any key we didn't recognise was silently swallowed for as long as projection was running. It shipped that way from the first release until 1.3.1, on every car. It got fixed because a user photographed the diagnostic toast on his phone (`Steering key [65538] not mapped`) and sent it in.
 
 **Rotary and D-pad head units.** Mazda Commander, BMW iDrive, Audi MMI — no touchscreen at all. Scroll wheel events (`VSCROLL`/`HSCROLL`/`SCROLL`) become `NAVIGATE_NEXT`/`PREVIOUS` focus moves, and the projected display is taken out of touch mode with `setInTouchMode(false, displayId)` — without that, Android hands focus to nothing and D-pad presses do literally nothing.
 
