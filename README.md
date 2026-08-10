@@ -73,13 +73,9 @@ No Android Auto developer options required — you don't need to tap Version ten
 ## What it looks like
 
 ![A full web browser on the head unit](docs/images/head-unit-browser.webp)
-<sub>A full web browser, running on the car screen.</sub>
+<sub>A full web browser, running on the car screen — Google DHU emulator, not a photo of a car.</sub>
 
-<img src="docs/images/head-unit-app-drawer.webp" width="320" alt="The app drawer on a portrait head unit">
-
-<sub>Every app on the phone, in the car's own app drawer — here on a portrait head unit.</sub>
-
-<sub>All shots are the Google DHU emulator, labelled as such rather than passed off as a car. More at [koalamirror.com/gallery](https://koalamirror.com/gallery).</sub>
+<sub>More, including portrait head units and the phone side, at [koalamirror.com/gallery](https://koalamirror.com/gallery).</sub>
 
 ## Requirements
 
