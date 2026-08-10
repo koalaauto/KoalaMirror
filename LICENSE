@@ -1,0 +1,34 @@
+KoalaMirror is proprietary software.
+Copyright (c) 2026 koala auto. All rights reserved.
+
+This repository hosts official release binaries (APKs), documentation, and
+images. It does not contain application source code.
+
+Permitted without further permission:
+  - Downloading and using the official APKs under the terms presented in the
+    application and at https://koalamirror.com/terms
+  - Redistributing UNMODIFIED official APKs, with their names intact
+
+Not permitted:
+  - Repackaging, modifying, reverse-engineering-based rebuilds, or
+    redistributing altered builds
+  - Using the names "KoalaMirror", "KM Launcher", "koala auto" or the koala
+    mark for modified or third-party builds
+
+Documentation and images in this repository (README, docs/) may be quoted
+with attribution.
+
+NO WARRANTY. THE SOFTWARE AND THE RELEASE BINARIES IN THIS REPOSITORY ARE
+PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+KoalaMirror requires root access and modifies system processes at runtime.
+You run it at your own risk. To the maximum extent permitted by applicable
+law, in no event shall the author be liable for any claim, damages, device
+malfunction, data loss, or other liability arising from or in connection
+with the software or its use. Nothing here limits rights that cannot be
+waived under the law that applies to you.
+
+Terms of service: https://koalamirror.com/terms
+Privacy policy:   https://koalamirror.com/privacy
