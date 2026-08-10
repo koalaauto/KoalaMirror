@@ -27,7 +27,7 @@ The head unit gets its own Android display: its own launcher, its own input focu
 
 [![Download the APK](https://img.shields.io/github/v/release/koalaauto/KoalaMirror?style=for-the-badge&label=Download%20the%20APK&color=7D5700&logo=android&logoColor=white)](https://github.com/koalaauto/KoalaMirror/releases/latest)
 
-<sub>Installs alongside Android Auto · 30-day trial of everything, then the [free tier](#free-and-licensed) keeps working</sub>
+<sub>Installs alongside Android Auto — it doesn't replace it.</sub>
 
 </div>
 
@@ -93,13 +93,11 @@ Behaviour differs by Android version and you should know which side you're on: `
 
 Not every Android Auto point release gets its own device pass; the app checks the AA version and degrades rather than breaking.
 
-## Free and licensed
+## What's free
 
-The split falls where the architecture does: the display itself is free, changing Android Auto's own behaviour is not.
+The split falls where the architecture does. **The car display is free, forever, no card** — with [KM Launcher](https://play.google.com/store/apps/details?id=com.koalamirror.launcher) as its home screen, any app on your phone opens on the car screen, and Android Auto's own shell stays stock.
 
-**Free, forever, no card:** the car display, with [KM Launcher](https://play.google.com/store/apps/details?id=com.koalamirror.launcher) as its home screen — open any app on your phone from there and it runs on the car screen. Android Auto's own shell stays stock.
-
-**Licensed:** the parts that live inside gearhead — the injected navigation bar, steering-wheel and rotary key handling, display density — plus editable projection settings. Signing in starts a 30-day trial of all of it; after that the free tier keeps working. [Pricing](https://koalamirror.com/#pricing).
+The parts that live *inside* gearhead need a licence: the injected navigation bar, steering-wheel and rotary key handling, display density, and editable projection settings. Signing in starts a 30-day trial of those; when it ends the free tier keeps working. Terms are on the [site](https://koalamirror.com).
 
 ## Install
 
