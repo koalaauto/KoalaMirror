@@ -1,29 +1,30 @@
 Copyright (c) 2026 koala auto. All rights reserved.
 
-This repository hosts the official KoalaMirror release binaries (APKs),
-documentation, and images. The application is distributed as a compiled
-binary; its source code is not part of this repository.
+This repository holds documentation and images for the KoalaMirror family of
+apps (KM Space, KM Auto, KM Launcher). It does not host the apps or their
+source code; official downloads are at https://koalamirror.com and on
+Google Play.
 
 Permitted without further permission:
-  - Downloading and using the official APKs under the terms presented in the
+  - Downloading and using the official apps under the terms presented in the
     application and at https://koalamirror.com/terms
   - Redistributing UNMODIFIED official APKs, with their names intact
 
 Not permitted:
   - Repackaging, modifying, reverse-engineering-based rebuilds, or
     redistributing altered builds
-  - Using the names "KoalaMirror", "KM Launcher", "koala auto" or the koala
-    mark for modified or third-party builds
+  - Using the names "KoalaMirror", "KM Space", "KM Auto", "KM Launcher",
+    "koala auto" or their marks for modified or third-party builds
 
 Documentation and images in this repository (README, docs/) may be quoted
 with attribution.
 
-NO WARRANTY. THE SOFTWARE AND THE RELEASE BINARIES IN THIS REPOSITORY ARE
+NO WARRANTY. THE SOFTWARE IS
 PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR
 A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
-KoalaMirror requires root access and modifies system processes at runtime.
+KM Auto requires root access and modifies system processes at runtime.
 You run it at your own risk. To the maximum extent permitted by applicable
 law, in no event shall the author be liable for any claim, damages, device
 malfunction, data loss, or other liability arising from or in connection
